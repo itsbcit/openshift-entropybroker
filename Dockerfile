@@ -32,12 +32,8 @@ RUN cp auth.txt /usr/local/entropybroker/etc/auth.txt
 FROM bcit/centos:7
 
 ENV RUNUSER entropybroker
-ENV BROKER_HOST entropybroker
 ENV BROKER_CONFIG   /usr/local/entropybroker/etc/entropy_broker.conf
 ENV BROKER_USERFILE /usr/local/entropybroker/etc/users.txt
-ENV SERVER_USERFILE /usr/local/entropybroker/etc/auth.txt
-ENV SERVER_USERNAME none
-ENV SERVER_PASSWORD none
 ENV LOG_LEVEL 10
 
 RUN yum --setopt tsflags=nodocs --setopt timeout=5 -y install \

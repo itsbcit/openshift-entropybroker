@@ -1,0 +1,7 @@
+---
+image_name: openshift-entropybroker
+labels:
+  maintainer: 'jesse@weisner.ca'
+variants:
+  - ''
+  - 'server-linux'

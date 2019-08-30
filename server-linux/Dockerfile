@@ -28,7 +28,7 @@ RUN cp auth.txt /usr/local/entropybroker/etc/auth.txt
 
 FROM bcit/centos:7
 LABEL maintainer="jesse@weisner.ca"
-LABEL build_id="1567139740"
+LABEL build_id="1567140093"
 ENV RUNUSER entropybroker
 ENV BROKER_HOST entropybroker
 ENV BROKER_PORT 55225

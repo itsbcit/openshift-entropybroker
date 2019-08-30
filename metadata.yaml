@@ -5,3 +5,8 @@ labels:
 variants:
   - ''
   - 'server-linux'
+suffixes:
+  - '2.9'
+files:
+  - '90-entropybroker-vardir.sh'
+  - '90-entropyserver-auth.sh'
